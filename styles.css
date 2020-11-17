@@ -27,6 +27,11 @@
     text-decoration: none;
 }
 
+#navbar a:hover {
+    color: red;
+    letter-spacing: 10px;
+}
+
 #navbar h4 {
     font: 2rem;
     margin: 10px;
@@ -71,4 +76,51 @@ li {
     color: black;
     background: rgba(248, 248, 248, 0.6);
     padding: 10px;
+}
+
+@media(max-width:750px) {
+    .main-section h3 {
+        margin-bottom: 5px;
+        padding: 5px;
+        font-weight: 50;
+        font-size: 1rem;
+    }
+    .navs {
+        float: none;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .sections {
+        width: 100%;
+        left: 0;
+        float: none;
+        border: none;
+        font-weight: none;
+    }
+    #navbar h4 {
+        font: 0.8rem;
+        margin: 5px;
+        padding: 5px;
+    }
+    #navbar a {
+        font-weight: normal;
+    }
+    .main-section {
+        margin: 5px 5px 5px 10px;
+        padding: 20px;
+        text-align: justify;
+    }
+    .main-section p,
+    li {
+        margin-bottom: 5px;
+        color: rgb(71, 71, 71);
+        font-size: 0.8rem;
+    }
+    .main-section ul {
+        margin-left: 30px;
+    }
+    #navbar h1 {
+        font-weight: normal;
+    }
 }
